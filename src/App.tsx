@@ -26,7 +26,6 @@ function Counter() {
       >
         +
       </button>
-
       <button
         onClick={() => {
           dispatch(asyncUpFetch());
@@ -35,7 +34,6 @@ function Counter() {
         + async fetch
       </button>
       <br />
-
       <div>
         {count} | {status}
       </div>
